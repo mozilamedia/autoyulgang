@@ -1,0 +1,20 @@
+{
+  "window": {
+    "keyword": "YB_OnlineClient"
+  },
+  "machine": {
+    "name": "lucpc",
+    "discord_webhook": "https://discord.com/api/webhooks/1470758562266611723/2jLmPZ2AKbjaP8KamlyvyCGJkTdmX5_Q4YiSjnLcDhlJOOo58EfOwdcVovfYQUkNiK6T",
+    "telegram_token": "",
+    "telegram_chat_id": ""
+  },
+  "revive": {
+    "enabled": true,
+    "template": "3.png",
+    "max_count": 5,
+    "notify_when_full": true
+  },
+  "script": {
+    "enabled": true
+  }
+}

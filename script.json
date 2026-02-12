@@ -1,0 +1,34 @@
+{
+  "script_name": "Example Script with Dependencies",
+  "description": "Kịch bản với điều kiện phụ thuộc giữa các bước",
+  "steps": [
+    {
+      "id": "step2",
+      "template": "2.png",
+      "wait_after_click": 0,
+      "description": "Click vào nút 2"
+    },
+    {
+      "id": "step1",
+      "template": "1.png",
+      "wait_after_click": 0,
+      "description": "Click vào nút 1"
+    },
+    {
+      "id": "step3",
+      "template": "3.png",
+      "wait_after_click": 0,
+      "description": "Chỉ click sau khi đã click 1.png HOẶC 2.png",
+      "depends_on": [
+        "step1",
+        "step2"
+      ],
+      "depends_mode": "any"
+    }
+  ],
+  "comment": {
+    "id": "ID duy nhất cho mỗi step",
+    "depends_on": "Danh sách ID của các step cần hoàn thành trước",
+    "depends_mode": "any = chỉ cần 1 trong các step, all = cần tất cả các step (mặc định: any)"
+  }
+}

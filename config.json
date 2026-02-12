@@ -1,0 +1,17 @@
+{
+  "machine": "PCLUA",
+  "discord": "https://discord.com/api/webhooks/1470758562266611723/2jLmPZ2AKbjaP8KamlyvyCGJkTdmX5_Q4YiSjnLcDhlJOOo58EfOwdcVovfYQUkNiK6T",
+  "tg_token": "8419161097:AAGnYT8chID7ofMsZy3RJgudrFqxsaczhzI",
+  "tg_chat": "1097218642",
+  "window_name": "YB_OnlineClient",
+  "track_template": "3.png",
+  "track_message": "hồi sinh",
+  "milestone_count": 5,
+  "milestone_message": "về thành",
+  "reset_minutes": 30,
+  "track_step_enabled": true,
+  "milestone_enabled": true,
+  "auto_reset_enabled": true,
+  "script_mode_enabled": false,
+  "auto_minimize_enabled": false
+}
